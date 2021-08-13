@@ -23,7 +23,9 @@ nav a{
 
 .icono{
     display: block;
+    font-size: 20px;
     z-index: 100000000;
+    font-weight: bold;
     animation: moverIzquierda 1s ease-in;
 }
 
@@ -59,7 +61,7 @@ img{
 }
 
 .textos h1{
-    font-size: 80px;
+    font-size: 100px;
     animation: moverderecha 1s ease-in;
 }
 
@@ -98,6 +100,7 @@ img{
     align-items: center;
     height: 100vh;
     right: 0;
+    font-size: 25px;
     flex-direction: column;
     width: 100%;
     transition: all 1s ease;
@@ -159,3 +162,4 @@ img{
     justify-content: space-around;
     align-items: center;
 }
+
