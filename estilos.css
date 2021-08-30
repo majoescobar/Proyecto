@@ -167,7 +167,8 @@ img{
 
 footer{
     width: 100%;
-    background: #202020;
+    background: -webkit-linear-gradient(to right, #272c9b, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #272c9b, #1488CC);
     color: white;   
     
 }
@@ -248,8 +249,11 @@ footer{
 }
 
 .container-footer{
-    width: 100%;  
-    background: #101010;
+    width: auto;
+    margin-bottom: auto;  
+    background: #2B32B2;
+    background: -webkit-linear-gradient(to right, #272c9b, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #272c9b, #1488CC);
 }
 
 .footer{
@@ -261,7 +265,7 @@ footer{
 }
 
 .copyright{
-    color: #C7C7C7;
+    color: white;
 }
 
 .copyright a{
@@ -272,7 +276,7 @@ footer{
 
 .information a{
     text-decoration: none;
-    color: #C7C7C7;
+    color:white;
 }
 
 
