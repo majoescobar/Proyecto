@@ -38,7 +38,7 @@ header{
     width: 100%;
 }
 
-.contenedor{
+.contenedor-inicio{
     width: 500%;
     max-width: 1200px;
     display: flex;
@@ -47,7 +47,7 @@ header{
     margin: auto; 
 }
 
-img{
+.imagen-ini{
     display: block;
     height: 450px;
     object-fit: cover;
@@ -66,7 +66,7 @@ img{
 }
 
 .textos h2{
-    font-size: 30px;
+    font-size: 40px;
     animation: moverizquierda 1s ease-in;
 }
 
@@ -163,7 +163,208 @@ img{
     align-items: center;
 }
 
+/* .contenedor-sobre-nosotros h2{
+    color: #000428;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 700px;
+} */
 
+.titulo2{
+    color: #000428;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 35 px;
+}
+
+.contenedor{
+    width: 500%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto; 
+    margin-top: 15px;
+}
+/* About us */
+
+main .sobre-nosotros{
+    padding: 35px 0 70px 0;
+}
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us{
+    width: 500px;
+    height: 500px;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 400px;
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span{
+    background: #4510d6;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* Galeria */
+
+
+.portafolio{
+    background: #f2f2f2;
+}
+
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port{
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(273,91%,27%, 0.7);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-galeria img{
+    width: 50px;
+}
+
+.hover-galeria p{
+    color: #fff;
+}
+
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+}
+
+/* Clients */
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cards .card{
+    background: #4510d6;
+    display: flex;
+    width: 46%; 
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.cards .card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+
+.cards .card > .contenido-texto-card{
+    width: 60%;
+    color: #fff;
+}
+
+.cards .card > .contenido-texto-card p{
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+/*  Our team */
+
+.final{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto; 
+}
+
+.about-services{
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+
+.servicio-cont{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.servicio-ind{
+    width: 70%;
+    text-align: center;
+}
+
+.servicio-ind img{
+    width: 90%;
+}
+
+.servicio-ind h3{
+    margin: 10px 0;
+}
+
+.servicio-ind p{
+    font-weight: 300;
+    text-align: justify;
+}
 
 footer{
     width: 100%;
