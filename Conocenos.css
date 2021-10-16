@@ -179,7 +179,7 @@ header{
 /*about us*/
 
 .about-us{
-    color:black;
+    color:rgb(255, 255, 255);
     height: auto;
     padding-bottom: 60px;
     padding-top: 60px;
@@ -197,7 +197,7 @@ header{
 
 .subtitulo{
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
 }
 
@@ -287,6 +287,12 @@ footer{
     max-width: 140px;
 }
 
+.row2 label a{
+    text-decoration: none;
+    color: #C7C7C7;
+
+}
+
 .container-footer{
     width: auto;
     margin-bottom: auto;  
@@ -334,6 +340,5 @@ footer{
         margin-top: 40px;
     }
 }
-
 
 

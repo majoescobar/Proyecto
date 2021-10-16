@@ -100,7 +100,7 @@ header{
     align-items: center;
     height: 100vh;
     right: 0;
-    font-size: 25px;
+    font-size: 30px;
     flex-direction: column;
     width: 100%;
     transition: all 1s ease;
@@ -423,6 +423,12 @@ footer{
     margin-top: 10px;
     margin-left: 20px;
     max-width: 140px;
+}
+
+.row2 label a{
+    text-decoration: none;
+    color: #C7C7C7;
+
 }
 
 .container-footer{
