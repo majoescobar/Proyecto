@@ -231,6 +231,10 @@ main .sobre-nosotros{
     font-weight: 300;
     text-align: justify;
 }
+.contenido-textos p .MAQUINAS img{
+    margin-left: 5px;
+    margin-top: 0%;
+}
 
 /* Galeria */
 
@@ -250,7 +254,6 @@ main .sobre-nosotros{
     margin-bottom: 10px;
     overflow: hidden;
     position: relative;
-    cursor: pointer;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
 
@@ -296,8 +299,17 @@ main .sobre-nosotros{
 }
 
 .cards .card > .contenido-texto-card p{
-    font-weight: 300;
+    font-weight: 50px;
     padding-top: 5px;
+}
+
+.contenido-texto-card p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.card h4{
+    font-size: 15px;
 }
 
 /*  Our team */
